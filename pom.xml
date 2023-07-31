@@ -22,7 +22,11 @@
 		<java.version>11</java.version>
 		<spring-boot.version>2.7.14</spring-boot.version>
 		<maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+		<twitter4j.version>4.0.7</twitter4j.version>
+		<twitter-api-java-sdk.version>1.2.2</twitter-api-java-sdk.version>
 		<project-lombok.version>1.18.28</project-lombok.version>
+		<http-client.version>4.5.14</http-client.version>
+		<json.version>20230618</json.version>
 	</properties>
 
 	<dependencyManagement>
@@ -39,10 +43,25 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
+				<groupId>org.twitter4j</groupId>
+				<artifactId>twitter4j-stream</artifactId>
+				<version>${twitter4j.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
 				<version>${project-lombok.version}</version>
 				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>${http-client.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>${json.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

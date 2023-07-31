@@ -1,0 +1,17 @@
+2023-07-29 20:21:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 44203 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
+2023-07-29 20:21:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-29 20:21:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.782 seconds (JVM running for 1.323)
+2023-07-29 20:21:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
+2023-07-29 20:21:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 44232 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.666 seconds (JVM running for 1.152)
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-07-29 20:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - null
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 44261 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.668 seconds (JVM running for 1.17)
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-07-29 20:24:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
