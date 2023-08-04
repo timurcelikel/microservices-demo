@@ -1,82 +1,15 @@
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 46937 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.772 seconds (JVM running for 1.411)
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 10:10:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 10:14:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 47288 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 10:14:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 10:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.329 seconds (JVM running for 1.774)
-2023-07-30 10:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 10:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 10:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:03:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49333 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:03:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:03:46 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class]; nested exception is java.lang.IllegalStateException: Error processing condition on com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner
-2023-07-30 11:03:46 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class]; nested exception is java.lang.IllegalStateException: Error processing condition on com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner
-	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:457)
-	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316)
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:22)
-Caused by: java.lang.IllegalStateException: Error processing condition on com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner
-	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
-	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
-	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:88)
-	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:71)
-	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isConditionMatch(ClassPathScanningCandidateComponentProvider.java:512)
-	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isCandidateComponent(ClassPathScanningCandidateComponentProvider.java:495)
-	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:430)
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelParseException: EL1041E: After parsing a valid expression, there is still more data in the expression: 'lcurly({)'
-	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:170)
-	at org.springframework.boot.autoconfigure.condition.OnExpressionCondition.evaluateExpression(OnExpressionCondition.java:60)
-	at org.springframework.boot.autoconfigure.condition.OnExpressionCondition.getMatchOutcome(OnExpressionCondition.java:48)
-	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
-	... 25 common frames omitted
-Caused by: org.springframework.expression.spel.SpelParseException: EL1041E: After parsing a valid expression, there is still more data in the expression: 'lcurly({)'
-	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.doParseExpression(InternalSpelExpressionParser.java:143)
-	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:63)
-	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:34)
-	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpressions(TemplateAwareExpressionParser.java:125)
-	at org.springframework.expression.common.TemplateAwareExpressionParser.parseTemplate(TemplateAwareExpressionParser.java:66)
-	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpression(TemplateAwareExpressionParser.java:52)
-	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:148)
-	... 28 common frames omitted
-2023-07-30 11:05:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49350 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:05:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:05:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.174 seconds (JVM running for 1.727)
-2023-07-30 11:05:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 11:05:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:05:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:06:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49386 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:06:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.159 seconds (JVM running for 1.699)
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:06:48 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
-2023-07-30 11:06:49 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2023-08-04 14:23:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.8 on geppetto.local with PID 66045 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
+2023-08-04 14:23:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.515 seconds (JVM running for 0.754)
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-08-04 14:23:09 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2023-08-04 14:23:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-30 11:06:49 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2023-08-04 14:23:09 [main] ERROR o.s.boot.SpringApplication - Application run failed
 java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
@@ -84,33 +17,13 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
 	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:31)
-Caused by: java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "line" is null
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:88)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:40)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 3 [character 4 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:497)
+	at org.json.JSONObject.<init>(JSONObject.java:208)
+	at org.json.JSONObject.<init>(JSONObject.java:404)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterV2StreamHelper.getFormattedTweet(TwitterV2StreamHelper.java:222)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:87)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:38)
 	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:39)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
 	... 5 common frames omitted
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49402 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.108 seconds (JVM running for 1.658)
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:08:08 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:08:09 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
-2023-07-30 11:10:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49437 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:10:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.128 seconds (JVM running for 1.687)
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:10:23 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
-2023-07-30 11:13:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 on cleo with PID 49589 (/Users/timurcelikel/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by timurcelikel in /Users/timurcelikel/IdeaProjects/microservices-demo)
-2023-07-30 11:13:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.452 seconds (JVM running for 2.151)
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to Microservices!
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-07-30 11:14:00 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
