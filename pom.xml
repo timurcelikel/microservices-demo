@@ -16,6 +16,10 @@
 	<modules>
 		<module>twitter-to-kafka-service</module>
 		<module>app-config-data</module>
+		<module>kafka</module>
+		<module>kafka/kafka-admin</module>
+		<module>kafka/kafka-model</module>
+		<module>kafka/kafka-producer</module>
 	</modules>
 	<packaging>pom</packaging>
 
@@ -28,6 +32,7 @@
 		<project-lombok.version>1.18.28</project-lombok.version>
 		<http-client.version>4.5.14</http-client.version>
 		<json.version>20230618</json.version>
+		<avro.version>1.11.2</avro.version>
 	</properties>
 
 	<dependencyManagement>
@@ -69,6 +74,11 @@
 				<groupId>org.json</groupId>
 				<artifactId>json</artifactId>
 				<version>${json.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.avro</groupId>
+				<artifactId>avro</artifactId>
+				<version>${avro.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
